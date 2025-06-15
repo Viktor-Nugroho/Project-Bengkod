@@ -5,7 +5,7 @@ import numpy as np
 
 # Load model dan scaler
 model = joblib.load('rf_model.pkl')
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('scaler (1).pkl')
 
 st.title("Prediksi Tingkat Obesitas")
 
